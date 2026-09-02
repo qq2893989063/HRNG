@@ -1,7 +1,8 @@
 # Qualcomm HRNG (Hardware Random Number Generator)
-
+# 高通硬件随机数生成器
 Android app that calls Qualcomm's hardware random number generator to generate random numbers in a specified range. ARM V8A architecture.
-
+安卓端软件，可使用高通的硬件随机数生成指定区间、指定数量的随机数，Arm V8A架构，当前版本代码100%由Xiaomi Mimo 2.5贡献，雷神的价格比梁文谷便宜很多
+下面的没翻译，右键翻译一下谢谢
 ## Features
 
 - Direct access to /dev/hw_random (Qualcomm QSEE HRNG, requires root)
