@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QualcommHRNG" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#E94560</item>
+        <item name="colorPrimaryVariant">#C62E4A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#0F3460</item>
+        <item name="colorSecondaryVariant">#0A2647</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">#1A1A2E</item>
+        <item name="android:navigationBarColor">#1A1A2E</item>
+        <item name="android:windowBackground">#1A1A2E</item>
+    </style>
+</resources>
