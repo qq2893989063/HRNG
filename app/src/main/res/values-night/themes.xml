@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.QualcommHRNG" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#E94560</item>
-        <item name="colorPrimaryVariant">#C62E4A</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
-        <item name="colorSecondary">#0F3460</item>
-        <item name="colorSecondaryVariant">#0A2647</item>
-        <item name="colorOnSecondary">#FFFFFF</item>
-        <item name="android:statusBarColor">#1A1A2E</item>
-        <item name="android:navigationBarColor">#1A1A2E</item>
-        <item name="android:windowBackground">#1A1A2E</item>
+    <!-- Material 3 Dark Theme -->
+    <style name="Theme.QualcommHRNG" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">#D0BCFF</item>
+        <item name="colorOnPrimary">#381E72</item>
+        <item name="colorPrimaryContainer">#4F378B</item>
+        <item name="colorOnPrimaryContainer">#EADDFF</item>
+        <!-- Secondary -->
+        <item name="colorSecondary">#CCC2DC</item>
+        <item name="colorOnSecondary">#332D41</item>
+        <item name="colorSecondaryContainer">#4A4458</item>
+        <item name="colorOnSecondaryContainer">#E8DEF8</item>
+        <!-- Tertiary -->
+        <item name="colorTertiary">#EFB8C8</item>
+        <item name="colorOnTertiary">#492532</item>
+        <item name="colorTertiaryContainer">#633B48</item>
+        <item name="colorOnTertiaryContainer">#FFD8E4</item>
+        <!-- Error -->
+        <item name="colorError">#F2B8B5</item>
+        <item name="colorOnError">#601410</item>
+        <item name="colorErrorContainer">#8C1D18</item>
+        <item name="colorOnErrorContainer">#F9DEDC</item>
+        <!-- Surface -->
+        <item name="colorSurface">#141218</item>
+        <item name="colorOnSurface">#E6E0E9</item>
+        <item name="colorSurfaceVariant">#49454F</item>
+        <item name="colorOnSurfaceVariant">#CAC4D0</item>
+        <item name="colorSurfaceContainer">#211F26</item>
+        <item name="colorSurfaceContainerHigh">#2B2930</item>
+        <item name="colorSurfaceContainerHighest">#36343B</item>
+        <item name="colorSurfaceContainerLow">#1D1B20</item>
+        <item name="colorSurfaceContainerLowest">#0F0D13</item>
+        <!-- Outline -->
+        <item name="colorOutline">#938F99</item>
+        <item name="colorOutlineVariant">#49454F</item>
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#141218</item>
+        <item name="android:navigationBarColor">#141218</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
     </style>
 </resources>
