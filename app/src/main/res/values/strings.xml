@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Qualcomm HRNG</string>
+    <string name="app_name">HRNG</string>
+    <string name="hardware_random_number_generator">硬件随机数生成器</string>
+    <string name="range_settings">范围设置</string>
+    <string name="min_hint">最小值</string>
+    <string name="max_hint">最大值</string>
+    <string name="batch_label">批量数量：</string>
+    <string name="batch_hint">100</string>
+    <string name="generate">生成随机数</string>
+    <string name="batch_generate">批量生成</string>
+    <string name="raw_entropy">原始熵 (32B)</string>
+    <string name="history">历史记录</string>
+    <string name="detecting_hrng">正在检测 HRNG…</string>
+    <string name="click_to_generate">点击按钮生成随机数</string>
 </resources>
